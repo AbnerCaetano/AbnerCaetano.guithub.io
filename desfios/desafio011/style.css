@@ -2,10 +2,14 @@ body,html {
     height: 100%;
     margin: 0;
 }
-.bg {
-    background-image: url(../desafio011/imagens/espaco.jpg);
+body {
+    background-image: url('imagens/espaco.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+.astronauta {
+    display: block;
+    text-align: center;
 }

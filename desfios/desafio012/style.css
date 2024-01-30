@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'passion';
+    src: url("fontes/PassionOne-Bold.ttf") format(truetype);
+}
+@font-face {
+    font-family: 'sriracha';
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}header h1 {
+    font-family: 'passion';
+    font-size: 3em;
+}
