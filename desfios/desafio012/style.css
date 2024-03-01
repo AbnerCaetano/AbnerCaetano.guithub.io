@@ -6,11 +6,6 @@
     font-weight: normal;
 }
 @font-face {
-    font-family: "passion02";
-    src: url(fontes/PassionOne-Regular.ttf) format(truetype);
-    font-weight: normal;
-} 
-@font-face {
     font-family: "sriracha";
     src: url(fontes/Sriracha-Regular.ttf) format(truetype);
     font-weight: normal;
@@ -29,26 +24,28 @@ header {
     min-height: 150px;
     height: 150px;
     color: white;
+    padding-bottom: 50px;
 }
 header > h1 {
     font-family: "passion";
     font-variant: small-caps;
     padding-top: 50px;
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
     text-shadow: 2px 2px 0px black;
 }
 header > p {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 50px;
+    font-size: 1em;
 }
-header  a, footer a {
+header  a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
-header a:hover, footer a:hover {
+header a:hover{
     text-decoration: underline;
 }
 main {
@@ -56,12 +53,12 @@ main {
     
 }
 
-
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 section.normal {
     background-color: white;
@@ -72,7 +69,8 @@ section.imagem {
     color: white;
 }
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgb(110, 110, 110);
 }
 section#imagem001 {
@@ -80,10 +78,20 @@ section#imagem001 {
     background-repeat: no-repeat;
     background-position: center center;
 }
+section#imagem002 {
+    background: black url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 100px;
+}
+footer a {
+    color: rgb(0, 0, 255);
+}
+footer a:hover{
+    color: red;
 }
     
